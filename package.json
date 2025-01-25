@@ -4,30 +4,30 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite",               // Starts Vite development server
+    "build": "vite build",       // Builds the project for production
+    "lint": "eslint .",          // Runs eslint for code linting
+    "preview": "vite preview"    // Previews the built project locally
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^18.3.1",          // React library
+    "react-dom": "^18.3.1"       // React DOM library
   },
   "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.18",
-    "eslint": "^9.9.1",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.11",
-    "globals": "^15.9.0",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.3.0",
-    "vite": "^5.4.2"
+    "@eslint/js": "^9.9.1",                    // ESLint configuration
+    "@types/react": "^18.3.5",                 // TypeScript types for React
+    "@types/react-dom": "^18.3.0",             // TypeScript types for React DOM
+    "@vitejs/plugin-react": "^4.3.1",          // Vite plugin for React
+    "autoprefixer": "^10.4.18",                // Autoprefix CSS rules for compatibility
+    "eslint": "^9.9.1",                        // ESLint for linting
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0", // ESLint plugin for React Hooks
+    "eslint-plugin-react-refresh": "^0.4.11",  // ESLint plugin for React Refresh
+    "globals": "^15.9.0",                      // Global variables for ESLint
+    "postcss": "^8.4.35",                      // PostCSS for processing CSS
+    "tailwindcss": "^3.4.1",                   // Tailwind CSS
+    "typescript": "^5.5.3",                    // TypeScript for type checking
+    "typescript-eslint": "^8.3.0",             // TypeScript plugin for ESLint
+    "vite": "^5.4.2"                           // Vite as the build tool
   }
 }
